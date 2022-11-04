@@ -1,4 +1,5 @@
 import 'package:chtt/Anim2.dart';
+import 'package:chtt/StaggerAnimation.dart';
 import 'package:flutter/material.dart';
 import './random_words.dart';
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   return MaterialApp(
     debugShowCheckedModeBanner: false,
     theme: ThemeData(primaryColor: Colors.purple[900]),
-    home:Anim2()
+    home:StaggerDome()
   );
  }
 }

@@ -47,9 +47,9 @@ class _Anim2State extends State<Anim2> with TickerProviderStateMixin {
                 color: Colors.black.withOpacity(0.6)
               ),
             ),
-            child: StaggerAnimation(
-              controller:_controller
-            ),  
+            // child: StaggerAnimation(
+            //   controller:_controller
+            // ),  
           )),
         ),
     );
