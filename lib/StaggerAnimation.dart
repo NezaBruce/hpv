@@ -160,7 +160,7 @@ class _StaggerDomeState extends State<StaggerDome> with TickerProviderStateMixin
     return Scaffold(
       appBar: AppBar(
         title: Text("Gerard Pique"),
-        backgroundColor: Colors.black38
+        backgroundColor: Color.fromARGB(96, 72, 5, 5)
       ),
       body: GestureDetector(
         behavior: HitTestBehavior.opaque,
@@ -168,9 +168,19 @@ class _StaggerDomeState extends State<StaggerDome> with TickerProviderStateMixin
           _playAnimation();
         },
         child: Center(
+          // CustomScrollView(
+          //   slivers: <Widget>[
+              
+          //   ],
+          // ),
           child: (
+            // CustomScrollView(
+            //   slivers: [],
+            //   // reverse: t,
+            // ),
+
             Container(
-              width: 300.0,
+              width: 300.0, 
               height: 300.0,
               decoration: BoxDecoration(
                 color: Colors.black87.withOpacity(0.1),
